@@ -1,9 +1,11 @@
-# Fantasy Football Draft Order Randomizer
+Fantasy Football Draft Order Randomizer
 
-# The Team class creates a Team with a name variable
+Java files located in src folder.
 
-# The League lass creates a league with a name variable and an array list of Teams
+The Team class constructor creates a Team object with a name variable.
 
-# The Main class contains the main method from which the program is run.  
-#     In it, you create an instance of the league class, then create instances of the Team class for each team in the league.  These Teams are then added to the League array list.
-#     Then the list of teams is printed to the console to show the original state, randomized using the Collections.shuffle method and printed once again with the randomized order.
+The League class constructor creates a league with a name variable passed by the constructor and an empty array list of Team objects.
+
+The Main class contains the main method from which the program is run.  
+     In it, you create an instance of the league class, then create instances of the Team class for each teams in the league.  These Teams are then added to the League array list.
+     Then the list of teams is printed to the console to show the original order, randomized using the Collections.shuffle method and printed once again with the randomized order.
