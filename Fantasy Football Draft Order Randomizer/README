@@ -1,0 +1,9 @@
+# Fantasy Football Draft Order Randomizer
+
+# The Team class creates a Team with a name variable
+
+# The League lass creates a league with a name variable and an array list of Teams
+
+# The Main class contains the main method from which the program is run.  
+#     In it, you create an instance of the league class, then create instances of the Team class for each team in the league.  These Teams are then added to the League array list.
+#     Then the list of teams is printed to the console to show the original state, randomized using the Collections.shuffle method and printed once again with the randomized order.
